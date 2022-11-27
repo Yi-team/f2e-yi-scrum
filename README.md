@@ -32,9 +32,11 @@ React
 https://reactjs.org/
 
 React-Draggable
+製作優先度拖拉順序
 https://www.npmjs.com/package/react-draggable
 
 React Scroll Horizontal
+網頁橫向滾動
 https://www.npmjs.com/package/react-scroll-horizontal
 
 
