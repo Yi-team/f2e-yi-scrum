@@ -16,7 +16,7 @@ npm start
 v14.19.0
 ```
 
-# 資料夾說明
+## 資料夾說明
 
 public/img
 存放圖片
@@ -24,7 +24,7 @@ public/img
 src/
 存放程式
 
-# 使用技術
+## 使用技術
 
 React
 https://reactjs.org/
@@ -36,4 +36,14 @@ React Scroll Horizontal
 https://www.npmjs.com/package/react-scroll-horizontal
 
 
-# 第三方服務
+# 團隊資訊
+
+團隊名稱：第Yi組
+
+組長： 萬豪 / 前端工程師
+
+組員： Luna / 前端工程師
+
+組員： 疫情 / UI設計師
+
+組員： IanLee / 前端工程師
