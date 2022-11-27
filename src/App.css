@@ -7,6 +7,7 @@
 .App {
   width: 100vw;
   height: 100vh;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 .container {
@@ -14,6 +15,16 @@
   height: 100%;
   overflow-y: hidden;
 }
+
+.title p {
+  position: absolute;
+  font-size: 82px;
+  font-weight: 700;
+  color: white;
+  margin: 3vh 0 0 3vw;
+}
+
+/* Page 1 */
 
 .page1 {
   background-image: url(../public/img/bg_sun_sportsField.png);
@@ -24,101 +35,451 @@
   /* background-size:contain; */
 }
 
-.page1 .flag{
+.page1 .flag {
   position: absolute;
   margin: 30vh 0 0 20vw;
 }
 
-.page1 .role{
+.page1 .role {
   margin: 60vh 0 0 30vw;
 }
 
-.page1 .role img{
+.page1 .role img {
   width: 15%;
 }
 
-
+/* Page 2 */
 
 .page2 {
-  background-image: url(../public/img/bg_sun_road.png);
+  background-image: url(../public/img/bg_sun_sportsField.png);
   width: 100vw;
   height: 100vh;
-  /* background-size:contain; */
 }
 
-.page2 .role img{
+.page2 .role img {
   width: 10%;
 }
 .page2 .role {
-  margin: 60vh 0 0 10vw;
+  margin: 65vh 0 0 10vw;
 }
-.page2 p {
-  font-size: 40px;
+
+.page2 .textBlock p {
+  font-size: 32px;
 }
 .page2 .textBlock {
   position: absolute;
-  background-color: azure;
-  margin: 10vh 0 0 60vw;
-  /* top: 10vh; */
-  width: 600px;
-  padding: 20px; 
+  margin: 10vh 0 0 50vw;
+  width: 800px;
+  height: 800px;
+  padding: 120px 120px 0px 160px;
+  background-image: url(../public/img/board_small.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
 }
 
+/* Page3 */
+
 .page3 {
-  background-image: url(../public/img/bg_sunset_mori.png);
+  background-image: url(../public/img/bg_sun_sportsField.png);
   width: 100vw;
   height: 100vh;
-  /* background-size:contain; */
 }
-.page3 .role img{
+.page3 .role img {
   width: 10%;
 }
 .page3 .role {
-  margin: 60vh 0 0 10vw;
+  margin: 65vh 0 0 10vw;
 }
-.page3 p {
-  font-size: 40px;
+.page3 .role img:nth-child(4) {
+  margin-left: 420px;
+  width: 12%;
+}
+.page3 .textBlock p {
+  font-size: 36px;
 }
 .page3 .textBlock {
   position: absolute;
-  background-color: azure;
-  margin: 10vh 0 0 60vw;
-  /* top: 10vh; */
-  width: 600px;
-  padding: 20px; 
+  margin: 5vh 0 0 25vw;
+  width: 800px;
+  height: 800px;
+  padding: 180px 100px 0px 100px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
+
+/* Page4 */
 
 .page4 {
-  background-image: url(../public/img/bg_night_mori.png);
+  background-image: url(../public/img/bg_sun_sportsField.png);
   width: 100vw;
   height: 100vh;
-  /* background-size:contain; */
 }
+
+.page4 .role img {
+  width: 10%;
+}
+.page4 .role {
+  margin: 65vh 0 0 10vw;
+}
+.page4 .role img:nth-child(4) {
+  width: 12%;
+}
+.page4 .textBlock p {
+  font-size: 36px;
+}
+.page4 .textBlock {
+  position: absolute;
+  margin: 10vh 0 0 8vw;
+  width: 700px;
+  height: 700px;
+  padding: 240px 80px 0px 80px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page4 .task {
+  position: absolute;
+  margin: -80vh 0 0 50vw;
+  background-color: gray;
+  width: 640px;
+}
+
+/* Page5 */
 
 .page5 {
-  background-image: url(../public/img/bg_sun_road.png);
+  background-image: url(../public/img/bg_sun_sportsField.png);
   width: 100vw;
   height: 100vh;
   /* background-size:contain; */
 }
 
+.page5 .role img {
+  width: 10%;
+}
+.page5 .role {
+  margin: 65vh 0 0 10vw;
+}
+.page5 .role img:nth-child(4) {
+  margin-left: 420px;
+  width: 12%;
+}
+
+.page5 .textBlock {
+  position: absolute;
+  margin: -3vh 0 0 28vw;
+  width: 800px;
+  height: 800px;
+  padding: 160px 80px 0px 80px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page5 .textBlock p {
+  font-size: 40px;
+}
+
+/* Page6 */
 .page6 {
-  background-image: url(../public/img/bg_sunset_road.png);
+  background-image: url(../public/img/bg_sun_sportsField.png);
   width: 100vw;
   height: 100vh;
-  /* background-size:contain; */
+}
+.page6 .role img {
+  width: 10%;
+}
+.page6 .role {
+  margin: 65vh 0 0 10vw;
+}
+.page6 .role img:nth-child(4) {
+  margin-left: 620px;
+  width: 12%;
+}
+.page6 .textBlock p {
+  font-size: 36px;
+}
+.page6 .textBlock {
+  position: absolute;
+  margin: -100vh 0 0 40vw;
+  width: 800px;
+  height: 800px;
+  padding: 160px 80px 0px 80px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.page7 {
-  background-image: url(../public/img/bg_night_road.png);
-  width: 100vw;
-  height: 100vh;
-  /* background-size:contain; */
-}
+/* Page7 */
 
 .page7 {
   background-image: url(../public/img/bg_sun_sportsField.png);
   width: 100vw;
   height: 100vh;
   /* background-size:contain; */
+}
+
+.page7 .role img {
+  width: 10%;
+}
+.page7 .role {
+  margin: 65vh 0 0 10vw;
+}
+
+.page7 .textBlock {
+  position: absolute;
+  margin: 40vh 0 0 30vw;
+  width: 300px;
+  height: 300px;
+  padding: 90px 0px 0px 35px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page7 .textBlock2 {
+  position: absolute;
+  margin: 55vh 0 0 10vw;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0 0 25px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page7 .textBlock3 {
+  position: absolute;
+  margin: 55vh 0 0 20vw;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0 0 25px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page7 .textBlock p {
+  font-size: 40px;
+}
+.page7 .task {
+  position: absolute;
+  margin: -70vh 50vw 0 60vw;
+  width: 640px;
+  background-color: gray;
+}
+
+/* Page8 */
+
+.page8 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+  /* background-size:contain; */
+}
+
+.page8 .role img {
+  width: 10%;
+}
+.page8 .role {
+  margin: 65vh 0 0 10vw;
+}
+
+.page8 .task {
+  position: absolute;
+  margin: -70vh 40vw 0 60vw;
+  width: 640px;
+  background-color: gray;
+}
+.page8 .textBlock {
+  position: absolute;
+  margin: 40vh 0 0 30vw;
+  width: 300px;
+  height: 300px;
+  padding: 70px 0px 0px 30px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page8 .textBlock2 {
+  position: absolute;
+  margin: 55vh 0 0 10vw;
+  width: 100px;
+  height: 100px;
+  padding: 26px 0 0 30px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page8 .textBlock3 {
+  position: absolute;
+  margin: 55vh 0 0 20vw;
+  width: 100px;
+  height: 100px;
+  padding: 26px 0 0 30px;
+  background-image: url(../public/img/dialog_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.page8 .textBlock p {
+  font-size: 40px;
+}
+
+/* Page9 */
+
+.page9 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+}
+.page9 .textBlock {
+  position: absolute;
+  color: white;
+  margin: 45vh 0 0 10vw;
+  padding: 20px;
+}
+.page9 .textBlock p {
+  font-size: 60px;
+}
+.page9 img {
+  margin: 35vh 0 0 60vw;
+}
+
+/* Page10 */
+
+.page10 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+}
+
+.page10 .role {
+  margin: 60vh 0 0 15vw;
+}
+
+.page10 .role img {
+  width: 12%;
+}
+
+.page10 .textBlock p {
+  font-size: 32px;
+}
+.page10 .textBlock {
+  position: absolute;
+  margin: 10vh 0 0 50vw;
+  width: 800px;
+  height: 800px;
+  padding: 120px 120px 0px 160px;
+  background-image: url(../public/img/board_small.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+/* Page11 */
+
+.page11 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Page12 */
+
+.page12 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+}
+
+.page12 .role {
+  margin: 60vh 0 0 15vw;
+}
+
+.page12 .role img {
+  width: 12%;
+}
+
+.page12 .textBlock p {
+  font-size: 32px;
+}
+.page12 .textBlock {
+  position: absolute;
+  margin: 10vh 0 0 50vw;
+  width: 800px;
+  height: 800px;
+  padding: 120px 120px 0px 160px;
+  background-image: url(../public/img/board_small.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+/* Page13 */
+
+.page13 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+}
+
+.page13 .role {
+  margin: 60vh 0 0 15vw;
+}
+
+.page13 .role img {
+  width: 12%;
+}
+
+.page13 .textBlock p {
+  font-size: 32px;
+}
+.page13 .textBlock {
+  position: absolute;
+  margin: 10vh 0 0 50vw;
+  width: 800px;
+  height: 800px;
+  padding: 120px 120px 0px 160px;
+  background-image: url(../public/img/board_small.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+.page14 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+  /* background-size:contain; */
+}
+
+/* Page15 */
+
+.page15 {
+  background-image: url(../public/img/bg_sun_sportsField.png);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.page15 .flag {
+  position: absolute;
+  margin: 30vh 0 0 20vw;
+}
+
+.page15 .role {
+  margin: 60vh 0 0 30vw;
+}
+
+.page15 .role img {
+  width: 15%;
 }
